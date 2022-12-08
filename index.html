@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main content -->
+        <div class="container">
+            <nav>
+                <a id="timer"><img 
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNnB4IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzhBQjRGOCI+CiAgICA8cGF0aCBkPSJNMTIgNXYxMGw5IDktOSA5djEwaDI0VjMzbC05LTkgOS05VjVIMTJ6bTIwIDI5djVIMTZ2LTVsOC04IDggOHptLTgtMTJsLTgtOFY5aDE2djVsLTggOHoiLz4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoNDh2NDhIMFYweiIvPgo8L3N2Zz4K" 
+                    jsname="NqoYf" class="act-icon-img" alt="Timer" data-atf="1" data-frt="0"
+                    width="15px" height="15px" >
+                    TIMER</a>
+                <a id="stopWatch">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNnB4IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDQ4djQ4SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMzAgMkgxOHY0aDEyVjJ6bS04IDI2aDRWMTZoLTR2MTJ6bTE2LjA1LTEzLjIzbDIuODUtMi44NWMtLjg2LTEuMDMtMS44LTEuOTctMi44My0yLjgzbC0yLjg1IDIuODVDMzIuMTUgOS40OCAyOC4yNCA4IDIzLjk5IDggMTQuMDQgOCA2IDE2LjA2IDYgMjZzOC4wNCAxOCAxNy45OSAxOFM0MiAzNS45NCA0MiAyNmMwLTQuMjUtMS40OC04LjE1LTMuOTUtMTEuMjN6TTI0IDQwYy03LjczIDAtMTQtNi4yNy0xNC0xNHM2LjI3LTE0IDE0LTE0IDE0IDYuMjcgMTQgMTQtNi4yNyAxNC0xNCAxNHoiLz4KPC9zdmc+Cg==" jsname="Qwqerb" 
+                    class="act-icon-img UFofVd" alt="Stopwatch" data-atf="1" data-frt="0"
+                    width="15px" height="15px">
+                    STOPWATCH</a>
+            </nav>
+
+            <!-- <div class="watch">
+                <div class="timeo">
+                    00:00:00
+                </div>
+                <div class="controls">
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="resetWatch">Reset</button>
+                </div>
+            </div> -->
+            <div class="inputDiv">
+                <span id="time" style="display: none;"></span>
+
+                <!-- Inputs to get the time values  -->
+                <div id="inputs">
+                    <input type="number" id="hour" maxlength="2" placeholder="00"><span>h</span>
+                    <input type="number" id="min" maxlength="2" placeholder="00"><span>m</span>
+                    <input type="number" id="sec" maxlength="2" placeholder="00"><span>s</span>
+                    </div>
+                <input  id="psudoIn" value="00h 00m 00s">
+            </div>
+            <div class="footer">
+                <div>
+                    <button id="sBtn">Start</button>
+                    <button id="reset">Reset</button>
+                </div>
+                <div class="icons">
+                    <img src="images/volUp.png" alt="vlouem" width="24px" height="24px">
+                    <img src="images/full.png" alt="fullscreen" width="24px" height="24px"  >
+                </div>
+                
+            </div>
+        </div>
+        <!-- End Main Content -->
+        
+        <!-- JavaScript source file -->
+        <script src="index.js"></script>
+</body>
+</html>
