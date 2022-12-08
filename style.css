@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202124;
+    color: white;
+}
+/* End Global */
+
+
+/* Start Main */
+.container{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    margin: 40px;
+    margin-left: 70px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav{
+    /* border-bottom: 1px solid lightgray;  */
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav a{
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+#timer{
+    color: #8ab4f8;
+    border-bottom: 2px solid #8ab4f8;
+}
+
+#stopWatch{
+    color: gray;
+}
+
+#stopWatch img{
+    color: gray;
+}
+
+
+.inputDiv{
+    padding: 50px 20px;
+    display:flex;
+    flex-direction: row;
+    border-bottom: 2px solid lightgray;
+    gap: 7px;
+}
+
+
+input{
+    width: 40px;
+    font-size:20px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+}
+
+#inputs{
+    display: none;
+}
+
+#psudoIn{
+    display: block;
+    color: white;
+    initial-value: "0s";
+    width: 120px;
+}
+
+
+#time{
+    margin-left: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+span{
+    margin-left: -15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.icons{
+    
+    margin: 0 7px;
+}
+
+button{
+    padding: 7px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#sBtn{
+    color: #202124;
+    background-color: #8ab4f8;
+    border: 1px solid #8ab4f8;
+}
+
+#reset{
+    color: #97999e;
+    background-color: #333435;
+    border: 1px solid #5e5e5f;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+#sBtn:hover{
+    background-color: rgb(42, 85, 164);
+    color: white;
+    font: large;
+} 
+
+#reset:hover{
+    background-color: rgb(86, 86, 87);
+    color: white;
+} 
+
+/* Stopwatch */
+
+/* Stopwatch end */
+
+
+/* End Main */
